@@ -1,0 +1,11 @@
+.top__icon-wrapper {
+  cursor: pointer;
+}
+
+.custom-dropdown::after {
+  text-align: center;
+}
+
+.custom-controller {
+  width: fit-content;
+}

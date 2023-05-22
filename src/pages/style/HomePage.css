@@ -1,0 +1,101 @@
+.property-home-left-side {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.property-home-left-upper {
+  padding: 2rem;
+}
+
+.property-slider {
+  width: 100%;
+  position: relative;
+}
+
+.property-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.swiper {
+  padding: 4%;
+  display: flex;
+  justify-content: space-around;
+  width: 80%;
+  align-items: center;
+  align-content: center;
+}
+
+.property-image {
+  width: 300px;
+  height: 300px;
+  border-radius: 2%;
+}
+
+.property-social {
+  gap: 10px;
+  display: flex;
+}
+
+.property-social-icon {
+  border: 1px solid #ccc;
+  padding: 5px;
+  border-radius: 50%;
+}
+
+.btnPrev {
+  display: inline;
+  position: absolute;
+  left: 0;
+  top: 50%;
+  background-color: #97bf0f;
+  border: none;
+  border-top-right-radius: 50%;
+  border-bottom-right-radius: 50%;
+  padding: 0.4rem 0.6rem;
+  color: #fff;
+}
+
+.btnNext {
+  position: absolute;
+  display: inline;
+  right: 0;
+  top: 50%;
+  background-color: #97bf0f;
+  border-top-left-radius: 50%;
+  border-bottom-left-radius: 50%;
+  border: none;
+  padding: 0.4rem 0.6rem;
+  color: #fff;
+}
+
+.progress_bar {
+  background-color: aliceblue;
+  height: 10px;
+  border: solid 1px black;
+  width: 30%;
+  border-radius: 5px;
+}
+
+.current_progress {
+  background-color: #97bf0f;
+  height: 10px;
+}
+
+.fit_content {
+  width: fit-content;
+}
+
+@media screen and (min-width: 768px) {
+  .btnPrev {
+    padding: 1rem 1.3rem;
+  }
+
+  .btnNext {
+    padding: 1rem 1.3rem;
+  }
+}
